@@ -1,0 +1,99 @@
+/* navigation */
+#items{
+    flex-direction: column;
+}
+
+#navbar{
+    flex-direction: column;
+}
+#navbar ul li a{
+    padding: 1px 5px;
+    margin:3px;
+    
+}
+
+/* home */
+#home {
+    display: flex;
+    flex-direction: column;
+    padding: 5px 40px;
+    height: 220px;
+    justify-content: center;
+    align-items: center;
+}
+#home::before {
+    content: "";
+    background: url(./mall5.jpg) no-repeat center center/cover;
+    position: absolute;
+    height: 386px;
+    width: 100%;
+    top: 0px;
+    z-index: -1;
+    opacity: 0.925;
+}
+#home p{
+    font-size: 15px;
+    color:white;
+}
+
+
+#home h1{
+    font-size: 35px;
+    text-align: center;
+    color: white;
+}
+
+.button {
+    border-radius: 30px;
+    border: 2px solid black;
+    padding: 5px;
+    margin: 5px;
+    color: black;
+    font-size: 1.2rem;
+}
+/* products */
+#items .box {
+    border: 2px solid #aeaae9;
+    margin: 4px 12px;
+    border-radius: 50px;
+    text-align: center;
+    padding: 12px;
+    background-color: #ede8e8;
+}
+#items .symbol {
+    height: 60px;
+    width: 68px;
+    display: block;
+    margin: auto;
+    padding: 1px;
+}
+/* clients section */
+#client .clients-item img {
+    height: 59px;
+    width: 65px;
+    margin: 11px;
+}
+.heading1 {
+    font-size: 30px;
+    text-align: center;
+    color: black;
+    padding: 1px;
+}
+
+/* investors */
+#investors::before{
+    content: "";
+    position: absolute;
+    background:url(./mall3.jpg) no-repeat center center/cover  ;
+  
+    width: 100%;
+    height: 25%;
+    z-index: -1;
+    opacity: 0.5;
+}
+#client {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 5px;
+}
